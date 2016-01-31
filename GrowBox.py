@@ -39,7 +39,7 @@ while 1:
 		while (photoData > PHOTO_MAX):
 			startMotor(MOTOR_PIN_CLOSE)
 		stopMotor(MOTOR_PIN_CLOSE)
-	else:
+	else if photoData < PHOTO_MIN:
 		while (photoData < PHOTO_MIN):
 			startMotor(MOTOR_PIN_OPEN)
 		stopMotor(MOTOR_PIN_OPEN)
