@@ -33,7 +33,7 @@ def stopMotor(pin):
 	GPIO.setup(pin, GPIO.OUT)
 	GPIO.output(pin, LOW)
 			
-while true:
+while 1:
 	photoData = getPhotoSensorData():
 	if photoData > PHOTO_MAX:
 		while (photoData > PHOTO_MAX):
