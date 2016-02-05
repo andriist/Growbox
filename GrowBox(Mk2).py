@@ -10,8 +10,8 @@ PHOTO_SENSOR_PIN = 22	    # Pghotoresistor
 HUMIDITY_TEMP_PIN = 27	    # DHT22 humidity-temerature sensor
 MOTOR_PIN_OPEN = 12         # jaloise operation motor`s GPIO pin
 MOTOR_PIN_CLOSE = 16        # jaloise operation motor`s GPIO pinFAN_PIN = 16                
-IRL_PIN = 16                # pin to turn on infrared lamp
-WATER_PUMP_PIN = 16         # pin to send signal to a water pump
+IRL_PIN = 11                # pin to turn on infrared lamp
+WATER_PUMP_PIN = 13         # pin to send signal to a water pump
 
 PHOTO_MAX = 50000           # max allowable level of illumination
 PHOTO_MIN = 40000     
