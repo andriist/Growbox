@@ -6,10 +6,10 @@ import RPI.GPIO as GPIO
 import DHT22
 from time import sleep
 
-PHOTO_SENSOR_PIN = 22]
-HUMIDITY_TEMP_PIN = 27
+PHOTO_SENSOR_PIN = 22	    # Pghotoresistor 
+HUMIDITY_TEMP_PIN = 27	    # DHT22 humidity-temerature sensor
 MOTOR_PIN_OPEN = 12         # jaloise operation motor`s GPIO pin
-MOTOR_PIN_CLOSE = 16        # jaloise operation motor`s GPIO pinFAN_PIN = 16                # pin to turn on FAN
+MOTOR_PIN_CLOSE = 16        # jaloise operation motor`s GPIO pinFAN_PIN = 16                
 IRL_PIN = 16                # pin to turn on infrared lamp
 WATER_PUMP_PIN = 16         # pin to send signal to a water pump
 
